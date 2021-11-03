@@ -1,5 +1,5 @@
-###**vko1**
-click for gitlogi [github.com](https://github.com/aitoAarni/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+**###vko1**
+[gitlogi is here](https://github.com/aitoAarni/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 
 
 
