@@ -1,0 +1,113 @@
+commit fff4eaba9b470d74497d070c3127c2f94c5b2bae
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 22:31:57 2021 +0200
+
+    NWO
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit b4715b03f4c67f6e57d728072417ccfede4731f7
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 22:27:39 2021 +0200
+
+    lisätty tierostot
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5c97c32bf3faea813ad78111f0c565af15b13045
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 22:00:20 2021 +0200
+
+    muutokset dona
+
+ eka.txt    | 7 +++----
+ kolmas.txt | 2 +-
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+
+commit cf32f822fb1cbb8dc20351a365517ac4d73a083d
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:56:41 2021 +0200
+
+    juu vähä uurelleenimeämistä
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9c3e1518e3c3a96cf9cbe3a22e799ee88654b504
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:53:27 2021 +0200
+
+    poistettu tierosto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit cb6bcb24f234febf93d8d4890110d67feab74063
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:46:27 2021 +0200
+
+    muokattu tekstisisältöööö
+
+ tiedosto.txt | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 587a459308f530932772daef106e16553138125a
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:44:27 2021 +0200
+
+    lisätty txt
+
+ tiedosto.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit cf445d5796f724fa7da3dea0f8b549c1005417ab
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:35:13 2021 +0200
+
+    juu uus file taaz, nobiggie
+
+ stuff/tierosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 06f3077ba548e63ee192fa8f2405a616795056aa
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:33:47 2021 +0200
+
+    vähä muokkausta nääs
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 338e80bcd96c899c1f1463b4cd2fa471084b06be
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:31:22 2021 +0200
+
+    kolmas luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 594e73df7c20fea2e19e792a9d4dcdc2872830ad
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 21:16:41 2021 +0200
+
+    muutos & lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit e7a535868051ec099ae0712683b20330967b3126
+Author: Aarni <dabeastelele@gmail.com>
+Date:   Wed Nov 3 20:58:37 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
