@@ -4,7 +4,7 @@
 [komentorivi](https://github.com/aitoAarni/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
 
-### _**vko2**__
+### _**vko2**_
 [maksukortti](https://github.com/aitoAarni/ot-harjoitustyo/tree/master/laskarit/viikko2/maksukortti)
 
 [unicafe](https://github.com/aitoAarni/ot-harjoitustyo/tree/master/laskarit/viikko2/unicafe)
