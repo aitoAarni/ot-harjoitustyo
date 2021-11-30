@@ -10,15 +10,13 @@ class Game_interface:
 
     def draw_tetrominoe(self, falling_tetrominoe, landed_tetrominoes):
         # draw falling tetrominoe
-        py.draw.rect(self.game_display,
-                     self.colors["white"], falling_tetrominoe)
+        self.game_display.blit(falling_tetrominoe.image, (falling_tetrominoe.x, falling_tetrominoe.y))
 
         # draw landed tetrominoe
         for tet in landed_tetrominoes:
-            py.draw.rect(self.game_display, self.colors["white"], tet)
+            self.game_display.blit(tet.image, (tet.x, tet.y))
 
-    def draw_window(self, falling_tetrominoe, landed_tetrominoes, image_dict):
+    def draw_window(self, falling_tetrominoe, landed_tetrominoes):
         self.game_display.fill((0, 0, 0))
         self.draw_tetrominoe(falling_tetrominoe, landed_tetrominoes)
-        self.game_display.blit(image_dict["L"], (0,0))
         py.display.update()

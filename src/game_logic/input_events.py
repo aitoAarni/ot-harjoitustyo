@@ -18,10 +18,8 @@ class Events:
 
             if event.type == py.KEYDOWN:
                 if event.key == py.K_LEFT:
-                    print("vasen painettu")
                     self.left_pressed = True
                 if event.key == py.K_RIGHT:
-                    print("oikee painettu")
                     self.right_pressed = True
                 if event.key == py.K_DOWN:
                     self.down_pressed = True

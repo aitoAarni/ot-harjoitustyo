@@ -5,9 +5,6 @@ class MoveTetrominoe:
         self.left_pressed = False
         self.right_pressed = False
 
-    def reset_movement_after_executed(self):
-        self.left_pressed = False
-        self.right_pressed = False
 
     def activate_movement(self, right=False, left=False):
         self.right_pressed = right
