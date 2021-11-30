@@ -1,4 +1,4 @@
-import random, pygame as py
+import random, load_store.load_tetrominoes, pygame as py
 from pygame.locals import *
 
 
@@ -9,7 +9,7 @@ class Tetrominoe:
         self.counter = 0
         self.landed_tetrominoes = []
         self.create_new_tetrominoe()
-
+        self.block_images = load_store.load_tetrominoes.LoadTetrominoes().load_pictures()
 
     def create_new_tetrominoe(self):
         x = random.randint(0,350-35)
@@ -36,12 +36,15 @@ class Tetrominoe:
         moved = False
         if self.counter % 20 == 0:
             moved = True
+            print(right)
             self.move_tetrominoe_left(left)
             self.move_tetrominoe_right(right)
         if self.counter % 75 == 0:
             self.move_tetrominoe_down_by_a_block(down)
         self.counter += 1
         return moved
+
+
     def __str__(self):
         return "Falling tetrominoe: " + ", ".join(self.falling_tetrominoe)
 

@@ -10,7 +10,6 @@ class Events:
     def reset_keys_pressed(self):
         self.left_pressed, self.right_pressed, self.down_pressed = False, False, False
 
-    
     def event_loop(self):
         for event in py.event.get():
 
@@ -19,8 +18,10 @@ class Events:
 
             if event.type == py.KEYDOWN:
                 if event.key == py.K_LEFT:
+                    print("vasen painettu")
                     self.left_pressed = True
                 if event.key == py.K_RIGHT:
+                    print("oikee painettu")
                     self.right_pressed = True
                 if event.key == py.K_DOWN:
                     self.down_pressed = True
