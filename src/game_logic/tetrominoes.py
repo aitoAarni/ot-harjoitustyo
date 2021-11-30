@@ -16,6 +16,7 @@ class Tetrominoes:
         #shape = random.choice([i for i in self.block_images.keys()])
         shape = "L"
         self.falling_tetrominoe = game_logic.tetromino.Block(self.block_images[shape], shape)
+
     def falling_tetrominoe_landed(self):
         self.landed_tetrominoes.append(self.falling_tetrominoe)
 
